@@ -1,0 +1,724 @@
+{
+  "emergencies": [
+    {
+      "id": "EMG-2026-9462",
+      "category": "Flood",
+      "description": "Rising water inside house, 5 people on second floor.",
+      "address": "Sector 2 Main Road",
+      "latitude": 17.72,
+      "longitude": 83.31,
+      "people_affected": 5,
+      "immediate_danger": true,
+      "medical_required": false,
+      "vulnerable_people": true,
+      "verification_status": "Unverified",
+      "priority": "Critical",
+      "priority_score": 75,
+      "priority_factors": [
+        "Emergency type [Flood]: +25 pts base severity",
+        "Immediate danger to life reported: +30 pts",
+        "Vulnerable population identified (elderly/children/disabled): +15 pts",
+        "Multi-person incident (5 people): +5 pts",
+        "Unverified report: flagged for rapid ground verification prior to heavy asset dispatch"
+      ],
+      "missing_info_warnings": [
+        "No direct contact info provided for verification call"
+      ],
+      "recommended_actions": [
+        "Execute phone contact verification or dispatch local scout drone/first responder",
+        "Immediate dispatch of nearest Tier-1 rescue team and ambulance unit",
+        "Notify incident command cell for immediate triage review"
+      ],
+      "status": "Submitted",
+      "assigned_team_ids": [],
+      "assigned_hospital_ids": [],
+      "assigned_shelter_ids": [],
+      "internal_notes": [],
+      "created_at": "2026-10-16T16:46:24.105Z",
+      "updated_at": "2026-10-16T16:46:24.105Z",
+      "is_simulated": false
+    },
+    {
+      "id": "EMG-2026-1001",
+      "category": "Flood",
+      "description": "Flash flooding breached perimeter wall. 14 people stranded on roof including two infants and an elderly asthma patient.",
+      "address": "Sector 4, Lower Riverside Colony, North Embankment",
+      "latitude": 17.7258,
+      "longitude": 83.315,
+      "people_affected": 14,
+      "immediate_danger": true,
+      "medical_required": true,
+      "vulnerable_people": true,
+      "vulnerable_details": "2 infants (under 1 yr), 1 elderly citizen requiring supplemental oxygen",
+      "contact_name": "Rajesh Verma (Resident Secretary)",
+      "contact_phone": "+91 98450 11234",
+      "contact_email": "rajesh.verma@example.org",
+      "verification_status": "Verified",
+      "priority": "Critical",
+      "priority_score": 94,
+      "priority_factors": [
+        "Emergency type [Flood]: +25 pts base severity",
+        "Immediate danger to life reported: +30 pts",
+        "Urgent medical assistance requested: +20 pts",
+        "Vulnerable population identified (elderly/children/disabled): +15 pts",
+        "Cluster exposure (14 people affected): +12 pts"
+      ],
+      "missing_info_warnings": [],
+      "recommended_actions": [
+        "Immediate dispatch of nearest Tier-1 rescue team and ambulance unit",
+        "Notify incident command cell for immediate triage review"
+      ],
+      "status": "In Progress",
+      "assigned_team_ids": [
+        "TEAM-SAR-01"
+      ],
+      "assigned_hospital_ids": [
+        "HOSP-01"
+      ],
+      "assigned_shelter_ids": [
+        "SHELTER-01"
+      ],
+      "internal_notes": [
+        {
+          "id": "NOTE-1",
+          "author": "Command Officer Rao",
+          "text": "Team USAR-01 mobilized with 2 Zodiac boats. Water level rising ~10cm/hr.",
+          "timestamp": "2026-10-16T08:45:00Z"
+        }
+      ],
+      "created_at": "2026-10-16T08:30:00Z",
+      "updated_at": "2026-10-16T08:45:00Z",
+      "is_simulated": false
+    },
+    {
+      "id": "EMG-2026-1002",
+      "category": "Landslide",
+      "description": "Hillside slip blocked residential access road. 3 homes partially crushed, 6 individuals trapped beneath debris.",
+      "address": "Hillview Ridge, Gate 3, Sector 8",
+      "latitude": 17.7412,
+      "longitude": 83.328,
+      "people_affected": 6,
+      "immediate_danger": true,
+      "medical_required": true,
+      "vulnerable_people": false,
+      "contact_name": "Anita Devi",
+      "contact_phone": "+91 98712 43210",
+      "verification_status": "Verified",
+      "priority": "Critical",
+      "priority_score": 88,
+      "priority_factors": [
+        "Emergency type [Landslide]: +28 pts base severity",
+        "Immediate danger to life reported: +30 pts",
+        "Urgent medical assistance requested: +20 pts",
+        "Cluster exposure (6 people affected): +12 pts"
+      ],
+      "missing_info_warnings": [],
+      "recommended_actions": [
+        "Immediate dispatch of nearest Tier-1 rescue team and ambulance unit",
+        "Heavy extrication gear and acoustic listening team required"
+      ],
+      "status": "Dispatched",
+      "assigned_team_ids": [
+        "TEAM-SAR-02"
+      ],
+      "assigned_hospital_ids": [
+        "HOSP-01"
+      ],
+      "assigned_shelter_ids": [],
+      "internal_notes": [
+        {
+          "id": "NOTE-2",
+          "author": "Field Ops Lead Priya",
+          "text": "Heavy excavators diverted from Public Works yard to clear approach.",
+          "timestamp": "2026-10-16T09:02:00Z"
+        }
+      ],
+      "created_at": "2026-10-16T08:50:00Z",
+      "updated_at": "2026-10-16T09:02:00Z",
+      "is_simulated": false
+    },
+    {
+      "id": "EMG-2026-1003",
+      "category": "Trapped Person",
+      "description": "Basement parking lot inundated rapidly. Security personnel reported 2 guards trapped behind jammed electric shutter.",
+      "address": "Metro Commercial Plaza, Basement Level -1",
+      "latitude": 17.712,
+      "longitude": 83.298,
+      "people_affected": 2,
+      "immediate_danger": true,
+      "medical_required": false,
+      "vulnerable_people": false,
+      "contact_name": "Security Chief Mallik",
+      "contact_phone": "+91 94401 55678",
+      "verification_status": "Unverified",
+      "priority": "High",
+      "priority_score": 70,
+      "priority_factors": [
+        "Emergency type [Trapped Person]: +35 pts base severity",
+        "Immediate danger to life reported: +30 pts",
+        "Multi-person incident (2 people): +5 pts",
+        "Unverified report: flagged for rapid ground verification"
+      ],
+      "missing_info_warnings": [
+        "Pending visual or phone re-confirmation from Plaza Management"
+      ],
+      "recommended_actions": [
+        "Execute phone contact verification or dispatch local scout first responder",
+        "Alert hydraulic cutting squad"
+      ],
+      "status": "Submitted",
+      "assigned_team_ids": [],
+      "assigned_hospital_ids": [],
+      "assigned_shelter_ids": [],
+      "internal_notes": [],
+      "created_at": "2026-10-16T09:15:00Z",
+      "updated_at": "2026-10-16T09:15:00Z",
+      "is_simulated": false
+    },
+    {
+      "id": "EMG-2026-1004",
+      "category": "Food or Water Shortage",
+      "description": "Drinking water borewell contaminated by sewage backflow. 85 community residents without clean potable water for 24h.",
+      "address": "Shanti Nagar Colony, Block B Community Hall",
+      "latitude": 17.695,
+      "longitude": 83.275,
+      "people_affected": 85,
+      "immediate_danger": false,
+      "medical_required": false,
+      "vulnerable_people": true,
+      "vulnerable_details": "Elderly residents and school-age children in community center",
+      "contact_name": "Deepak Nair (Welfare Assc)",
+      "contact_phone": "+91 98230 77890",
+      "verification_status": "Verified",
+      "priority": "Medium",
+      "priority_score": 48,
+      "priority_factors": [
+        "Emergency type [Food or Water Shortage]: +15 pts base severity",
+        "Vulnerable population identified (elderly/children/disabled): +15 pts",
+        "Mass casualty threat (>50 people affected): +25 pts"
+      ],
+      "missing_info_warnings": [],
+      "recommended_actions": [
+        "Deploy community relief/shelter liaison for on-site needs assessment",
+        "Task Red Crescent relief water bowser to deliver 4,000L purified water"
+      ],
+      "status": "Verified",
+      "assigned_team_ids": [],
+      "assigned_hospital_ids": [],
+      "assigned_shelter_ids": [],
+      "internal_notes": [
+        {
+          "id": "NOTE-3",
+          "author": "Relief Coordinator Maya",
+          "text": "Red Crescent Tanker #3 allocated for 11:30 AM drop-off.",
+          "timestamp": "2026-10-16T09:20:00Z"
+        }
+      ],
+      "created_at": "2026-10-16T07:45:00Z",
+      "updated_at": "2026-10-16T09:20:00Z",
+      "is_simulated": false
+    },
+    {
+      "id": "EMG-2026-1005",
+      "category": "Medical Emergency",
+      "description": "Dialysis patient with acute respiratory distress cut off due to waterlogged street. Oxygen cylinder running out.",
+      "address": "House #42, Ward 12, Old Post Office Road",
+      "latitude": 17.708,
+      "longitude": 83.305,
+      "people_affected": 1,
+      "immediate_danger": true,
+      "medical_required": true,
+      "vulnerable_people": true,
+      "vulnerable_details": "End-stage renal disease, portable oxygen below 15%",
+      "contact_name": "Kavita Sen (Daughter)",
+      "contact_phone": "+91 97110 33445",
+      "verification_status": "Verified",
+      "priority": "Critical",
+      "priority_score": 95,
+      "priority_factors": [
+        "Emergency type [Medical Emergency]: +30 pts base severity",
+        "Immediate danger to life reported: +30 pts",
+        "Urgent medical assistance requested: +20 pts",
+        "Vulnerable population identified: +15 pts"
+      ],
+      "missing_info_warnings": [],
+      "recommended_actions": [
+        "Immediate dispatch of nearest Tier-1 rescue team and ambulance unit",
+        "Alert Apex Trauma ICU for rapid nephrology triage"
+      ],
+      "status": "Dispatched",
+      "assigned_team_ids": [
+        "TEAM-MED-01"
+      ],
+      "assigned_hospital_ids": [
+        "HOSP-01"
+      ],
+      "assigned_shelter_ids": [],
+      "internal_notes": [],
+      "created_at": "2026-10-16T09:10:00Z",
+      "updated_at": "2026-10-16T09:18:00Z",
+      "is_simulated": false
+    }
+  ],
+  "rescueTeams": [
+    {
+      "id": "TEAM-SAR-01",
+      "name": "NDRF Special Aquatic Unit 01",
+      "type": "Boat Rescue",
+      "capabilities": [
+        "Swift Water Rescue",
+        "Flood Evacuation",
+        "Night Search",
+        "Deep Water Triage"
+      ],
+      "equipment": [
+        "3 Inflatable Motor Boats (Zodiac)",
+        "Life Vests (x50)",
+        "High-Beam Floodlights",
+        "Thermal Drone"
+      ],
+      "personnel_count": 14,
+      "latitude": 17.722,
+      "longitude": 83.31,
+      "current_status": "On Scene",
+      "current_assignment_id": "EMG-2026-1001",
+      "contact_phone": "+91 98001 00101",
+      "leader_name": "Cmdr. Vikram Singhania",
+      "base_station": "Harbor Coast Guard Annex"
+    },
+    {
+      "id": "TEAM-SAR-02",
+      "name": "State Disaster Response USAR Bravo",
+      "type": "Urban SAR",
+      "capabilities": [
+        "Collapsed Structure Rescue",
+        "Acoustic Listening",
+        "Canine Search",
+        "Hydraulic Shearing"
+      ],
+      "equipment": [
+        "Hydraulic Cutters",
+        "Concrete Breakers",
+        "Delsar Acoustic Sensors",
+        "2 Certified K9 Dogs"
+      ],
+      "personnel_count": 18,
+      "latitude": 17.738,
+      "longitude": 83.321,
+      "current_status": "Dispatched",
+      "current_assignment_id": "EMG-2026-1002",
+      "contact_phone": "+91 98001 00102",
+      "leader_name": "Inspector Sunil Rathore",
+      "base_station": "North Division Police Lines"
+    },
+    {
+      "id": "TEAM-MED-01",
+      "name": "EMS Mobile Tactical Triage Delta",
+      "type": "Medical First Response",
+      "capabilities": [
+        "Advanced Trauma Life Support",
+        "Field Amputation Kit",
+        "Ventilator Units",
+        "Neonatal Care"
+      ],
+      "equipment": [
+        "2 High-Clearance 4x4 Ambulances",
+        "Portable Ventilators",
+        "Defibrillators",
+        "Whole Blood Transport Kits"
+      ],
+      "personnel_count": 8,
+      "latitude": 17.705,
+      "longitude": 83.3,
+      "current_status": "Dispatched",
+      "current_assignment_id": "EMG-2026-1005",
+      "contact_phone": "+91 98001 00103",
+      "leader_name": "Dr. Meenakshi Sundaram",
+      "base_station": "Apex Hospital EMS Bay"
+    },
+    {
+      "id": "TEAM-FIRE-01",
+      "name": "Metro Heavy Rescue Fire Squadron",
+      "type": "Hazmat & Fire",
+      "capabilities": [
+        "High-Pressure Water Pumping",
+        "Chemical Neutralization",
+        "Confined Space Rescue"
+      ],
+      "equipment": [
+        "Heavy Pumper Engine",
+        "High-Expansion Foam Unit",
+        "Chemical Suits Level-A",
+        "Heavy Winch"
+      ],
+      "personnel_count": 12,
+      "latitude": 17.718,
+      "longitude": 83.285,
+      "current_status": "Available",
+      "current_assignment_id": null,
+      "contact_phone": "+91 98001 00104",
+      "leader_name": "Captain Joseph Fernandes",
+      "base_station": "Central Fire HQ"
+    },
+    {
+      "id": "TEAM-QRF-01",
+      "name": "Civil Defense Rapid Reaction Team 4",
+      "type": "Quick Response",
+      "capabilities": [
+        "Drone Reconnaissance",
+        "Perimeter Barricade",
+        "Rapid Triage",
+        "Megaphone Warning"
+      ],
+      "equipment": [
+        "2 All-Terrain Quads",
+        "DJI Matrice 300 RTK Drone",
+        "Satellite Comms Trunk",
+        "First-Aid Packs"
+      ],
+      "personnel_count": 6,
+      "latitude": 17.73,
+      "longitude": 83.305,
+      "current_status": "Available",
+      "current_assignment_id": null,
+      "contact_phone": "+91 98001 00105",
+      "leader_name": "Lt. Tariq Khan",
+      "base_station": "City Stadium Staging Ground"
+    }
+  ],
+  "hospitals": [
+    {
+      "id": "HOSP-01",
+      "name": "Apex Trauma & Disaster Medical Center",
+      "address": "400 Coastal Highway, Medical Enclave",
+      "latitude": 17.706,
+      "longitude": 83.298,
+      "total_beds": 350,
+      "available_beds": 42,
+      "icu_beds": 60,
+      "available_icu": 6,
+      "operational_status": "Fully Operational",
+      "has_trauma_center": true,
+      "has_burn_unit": true,
+      "ambulances_total": 10,
+      "ambulances_available": 3,
+      "blood_supplies": "Adequate",
+      "last_updated": "2026-10-16T09:15:00Z"
+    },
+    {
+      "id": "HOSP-02",
+      "name": "Government District General Hospital",
+      "address": "Civil Hospital Road, Old Cantonment",
+      "latitude": 17.719,
+      "longitude": 83.312,
+      "total_beds": 500,
+      "available_beds": 18,
+      "icu_beds": 40,
+      "available_icu": 2,
+      "operational_status": "Critical Capacity",
+      "has_trauma_center": true,
+      "has_burn_unit": false,
+      "ambulances_total": 12,
+      "ambulances_available": 1,
+      "blood_supplies": "Low",
+      "last_updated": "2026-10-16T09:20:00Z"
+    },
+    {
+      "id": "HOSP-03",
+      "name": "Sunrise Maritime Children & Maternity Hospital",
+      "address": "Seaside Boulevard, Sector 11",
+      "latitude": 17.692,
+      "longitude": 83.315,
+      "total_beds": 180,
+      "available_beds": 35,
+      "icu_beds": 24,
+      "available_icu": 8,
+      "operational_status": "Fully Operational",
+      "has_trauma_center": false,
+      "has_burn_unit": false,
+      "ambulances_total": 4,
+      "ambulances_available": 2,
+      "blood_supplies": "Adequate",
+      "last_updated": "2026-10-16T08:50:00Z"
+    }
+  ],
+  "shelters": [
+    {
+      "id": "SHELTER-01",
+      "name": "East Metro Indoor Sports Arena Shelter",
+      "address": "Main Stadium Complex, Ring Road Gate 2",
+      "latitude": 17.728,
+      "longitude": 83.308,
+      "total_capacity": 800,
+      "current_occupancy": 512,
+      "is_accessible": true,
+      "food_water_status": "Abundant",
+      "medical_kits": 140,
+      "operational_status": "Active",
+      "manager_name": "Sub-Collector Suresh Babu",
+      "manager_phone": "+91 94900 12345",
+      "last_updated": "2026-10-16T09:00:00Z"
+    },
+    {
+      "id": "SHELTER-02",
+      "name": "Community Polytechnic Girls Hostel Camp",
+      "address": "College Road, Sector 6",
+      "latitude": 17.738,
+      "longitude": 83.318,
+      "total_capacity": 350,
+      "current_occupancy": 310,
+      "is_accessible": false,
+      "food_water_status": "Moderate",
+      "medical_kits": 45,
+      "operational_status": "Active",
+      "manager_name": "Prof. Hemalatha Reddy",
+      "manager_phone": "+91 94900 67890",
+      "last_updated": "2026-10-16T08:40:00Z"
+    },
+    {
+      "id": "SHELTER-03",
+      "name": "St. Andrews Parish Relief Hall",
+      "address": "Mission Hill Road, Near Railway Junction",
+      "latitude": 17.702,
+      "longitude": 83.284,
+      "total_capacity": 250,
+      "current_occupancy": 245,
+      "is_accessible": true,
+      "food_water_status": "Low",
+      "medical_kits": 15,
+      "operational_status": "At Capacity",
+      "manager_name": "Father Thomas George",
+      "manager_phone": "+91 94900 11223",
+      "last_updated": "2026-10-16T09:10:00Z"
+    }
+  ],
+  "reliefOrgs": [
+    {
+      "id": "RELIEF-01",
+      "name": "Red Crescent Humanitarian Taskforce",
+      "lead_contact": "Mariam Al-Mansoor",
+      "phone": "+91 98888 12345",
+      "volunteers_active": 85,
+      "vehicles_available": 9,
+      "supplies_inventory": {
+        "food_kits": 1250,
+        "water_liters": 18000,
+        "hygiene_packs": 950,
+        "blankets": 2400,
+        "medical_tents": 12
+      },
+      "assigned_tasks": [
+        {
+          "id": "TASK-101",
+          "title": "Emergency Clean Water Bowser Delivery",
+          "destination": "Shanti Nagar Colony Block B (EMG-2026-1004)",
+          "status": "In Transit",
+          "progress": 60,
+          "target_date": "2026-10-16T11:30:00Z",
+          "supplies_summary": "4,000L Water, 150 Hygiene kits"
+        },
+        {
+          "id": "TASK-102",
+          "title": "Hot Meals Provisioning",
+          "destination": "East Metro Arena Shelter (SHELTER-01)",
+          "status": "In Transit",
+          "progress": 80,
+          "target_date": "2026-10-16T12:30:00Z",
+          "supplies_summary": "600 Fresh Meal Boxes"
+        }
+      ]
+    },
+    {
+      "id": "RELIEF-02",
+      "name": "Disaster Volunteers Coalition (Seva Dal)",
+      "lead_contact": "Harish Chandra",
+      "phone": "+91 98888 56789",
+      "volunteers_active": 140,
+      "vehicles_available": 14,
+      "supplies_inventory": {
+        "food_kits": 800,
+        "water_liters": 8500,
+        "hygiene_packs": 400,
+        "blankets": 1100,
+        "medical_tents": 4
+      },
+      "assigned_tasks": [
+        {
+          "id": "TASK-201",
+          "title": "Dry Ration Distribution to Flood Isolated Sector 4",
+          "destination": "Lower Riverside Perimeter Staging",
+          "status": "Pending",
+          "progress": 10,
+          "target_date": "2026-10-16T14:00:00Z",
+          "supplies_summary": "200 Dry Ration Bags"
+        }
+      ]
+    }
+  ],
+  "missingPersons": [
+    {
+      "id": "MP-01",
+      "type": "Missing",
+      "name": "Aarav Sharma",
+      "approx_age": 9,
+      "gender": "Male",
+      "description": "Wearing blue cartoon t-shirt, navy shorts. Lost contact during flash flood evacuation near Sector 4 Riverside.",
+      "last_known_location": "Lower Riverside Colony, North Embankment",
+      "contact_info": "Sunita Sharma (Mother): +91 97777 12345",
+      "reported_at": "2026-10-16T08:40:00Z",
+      "status": "Potential Match Found",
+      "matched_with_id": "FP-01",
+      "match_confidence": 92,
+      "match_reasons": [
+        "Age range match (approx 8-10 yrs)",
+        "Matching blue graphic apparel recorded at East Metro Shelter",
+        "Location proximity: found 1.4km downstream within 40 minutes of report"
+      ]
+    },
+    {
+      "id": "FP-01",
+      "type": "Found/Sheltered",
+      "name": "Unidentified Boy (says \"Aarav\")",
+      "approx_age": 9,
+      "gender": "Male",
+      "description": "Boy in wet blue t-shirt and dark shorts, accompanied to shelter by municipal rescue boat.",
+      "last_known_location": "Rescued near Riverside Bridge pier",
+      "found_location": "East Metro Arena Shelter Intake desk",
+      "shelter_id": "SHELTER-01",
+      "contact_info": "East Shelter Triage Desk Desk 2",
+      "reported_at": "2026-10-16T09:05:00Z",
+      "status": "Potential Match Found",
+      "matched_with_id": "MP-01"
+    },
+    {
+      "id": "MP-02",
+      "type": "Missing",
+      "name": "Gopal Krishna Murthy",
+      "approx_age": 74,
+      "gender": "Male",
+      "description": "Elderly gentleman with white beard, walking stick, hearing aid. May be disoriented.",
+      "last_known_location": "Old Post Office Road, Ward 12",
+      "contact_info": "Sanjay Murthy: +91 97777 67890",
+      "reported_at": "2026-10-16T09:12:00Z",
+      "status": "Reported"
+    }
+  ],
+  "blockedRoads": [
+    {
+      "id": "ROAD-01",
+      "name": "Riverside Lower Causeway",
+      "description": "1.2m swift torrent overtopping road. Inaccessible to wheeled vehicles.",
+      "latitude": 17.721,
+      "longitude": 83.312,
+      "severity": "Total Blockage",
+      "reported_at": "2026-10-16T08:15:00Z",
+      "status": "Active"
+    },
+    {
+      "id": "ROAD-02",
+      "name": "Hillview Pass Underbridge",
+      "description": "Mud & rock debris 4ft high blocking both lanes.",
+      "latitude": 17.736,
+      "longitude": 83.324,
+      "severity": "Total Blockage",
+      "reported_at": "2026-10-16T08:55:00Z",
+      "status": "Active"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-1792169184106-535",
+      "title": "NEW EMERGENCY: Flood (Critical)",
+      "message": "5 person(s) reported at Sector 2 Main Road. IMMEDIATE DANGER TO LIFE.",
+      "level": "critical",
+      "timestamp": "2026-10-16T16:46:24.106Z",
+      "category": "Citizen Report",
+      "target_role": "authority",
+      "link_id": "EMG-2026-9462",
+      "is_read": false
+    },
+    {
+      "id": "NOTIF-01",
+      "title": "CRITICAL: Sector 4 Embankment Overflow",
+      "message": "High discharge from upstream reservoir causing rapid backflow into Riverside colonies.",
+      "level": "critical",
+      "timestamp": "2026-10-16T08:31:00Z",
+      "category": "Hazard Alert",
+      "target_role": "all",
+      "link_id": "EMG-2026-1001",
+      "is_read": false
+    },
+    {
+      "id": "NOTIF-02",
+      "title": "Road Blockage: Riverside Lower Causeway",
+      "message": "Route closed. Automatic detour routing enabled for all rescue team navigation.",
+      "level": "warning",
+      "timestamp": "2026-10-16T08:16:00Z",
+      "category": "Infrastructure",
+      "target_role": "rescue_team",
+      "is_read": false
+    },
+    {
+      "id": "NOTIF-03",
+      "title": "Hospital Capacity Warning: District General",
+      "message": "General Hospital ICU at 95% capacity (only 2 ICU beds remaining). Diversion recommended.",
+      "level": "warning",
+      "timestamp": "2026-10-16T09:20:00Z",
+      "category": "Medical",
+      "target_role": "authority",
+      "link_id": "HOSP-02",
+      "is_read": true
+    },
+    {
+      "id": "NOTIF-04",
+      "title": "Missing Person Potential Match Detected",
+      "message": "Algorithmic match identified between missing child Aarav Sharma (MP-01) and sheltered boy at East Arena.",
+      "level": "info",
+      "timestamp": "2026-10-16T09:07:00Z",
+      "category": "Reunification",
+      "target_role": "authority",
+      "link_id": "MP-01",
+      "is_read": false
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUDIT-1792169184106-859",
+      "timestamp": "2026-10-16T16:46:24.106Z",
+      "actor": "Citizen Portal",
+      "action": "EMERGENCY_SUBMITTED",
+      "details": "New incident EMG-2026-9462 (Flood) reported. Calculated priority: Critical (75 pts).",
+      "emergency_id": "EMG-2026-9462"
+    },
+    {
+      "id": "AUDIT-1792169174407-911",
+      "timestamp": "2026-10-16T16:46:14.407Z",
+      "actor": "Init",
+      "action": "DATABASE_RESET",
+      "details": "Demo database re-initialized to default baseline seed data."
+    },
+    {
+      "id": "AUDIT-01",
+      "timestamp": "2026-10-16T08:30:15Z",
+      "actor": "Citizen Portal",
+      "action": "EMERGENCY_SUBMITTED",
+      "details": "New flood report EMG-2026-1001 filed from Sector 4 (14 affected). Deterministic engine assigned Critical (94 pts).",
+      "emergency_id": "EMG-2026-1001"
+    },
+    {
+      "id": "AUDIT-02",
+      "timestamp": "2026-10-16T08:45:10Z",
+      "actor": "Cmdr. Rao (Authority)",
+      "action": "RESOURCE_ASSIGNED",
+      "details": "Assigned NDRF Special Aquatic Unit 01 (TEAM-SAR-01) to EMG-2026-1001.",
+      "emergency_id": "EMG-2026-1001"
+    },
+    {
+      "id": "AUDIT-03",
+      "timestamp": "2026-10-16T09:05:00Z",
+      "actor": "Reunification Engine",
+      "action": "MATCH_PROPOSED",
+      "details": "Calculated 92% confidence match between MP-01 and FP-01 based on attributes and location timeline."
+    }
+  ]
+}

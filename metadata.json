@@ -1,0 +1,6 @@
+{
+  "name": "Intelligent Disaster Response & Relief Coordination",
+  "description": "Comprehensive disaster management command system featuring real-time citizen reporting, deterministic priority engine, multi-agency resource allocation, and dynamic response replanning.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
